@@ -7,4 +7,4 @@ A simple notetaking cli
 - add - add a new note
 # Installation
 - git clone https://github.com/0xsweat/noted;cd noted;sudo apt install ccrypt;pip install datetime colorama
-- You should add alias noted='WHEREVERYOURNOTEDIS/noted.py' into your .bashrc equivalent for your shell
+- You should add alias noted='python3 WHEREVERYOURNOTEDIS/noted.py' into your .bashrc equivalent for your shell
