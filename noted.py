@@ -42,7 +42,10 @@ if str(option) == "view":
     ans = str(input("-# "))
     if ans == "all":
         print(Fore.MAGENTA + "Your saved notes : ")
-        os.system("cat /home/" + str(os.getlogin()) + '/.notednotes')
+        with open ("/home/" + str(os.getlogin()) + "/.notednotes", 'r') as file:
+            nf = file.read()
+            file.close()
+        print(nf)
     else:
         print("Enter in the note's name, or date")
         note2search4 = str(input("-# "))
