@@ -1,3 +1,4 @@
+![noted screenshot](https://github.com/0xsweat/noted/blob/main/noted.png)
 # noted
 A simple notetaking cli
 # usage
