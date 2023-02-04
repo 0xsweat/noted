@@ -5,3 +5,6 @@ A simple notetaking cli
 - python3 noted.py [OPTION]
 - view - view all notes or a certain note
 - add - add a new note
+# Installation
+- git clone https://github.com/0xsweat/noted;cd noted;sudo apt install ccrypt;pip install datetime colorama
+- You should add alias noted='WHEREVERYOURNOTEDIS/noted.py' into your .bashrc equivalent for your shell
